@@ -1,0 +1,277 @@
+{
+  "_meta": {
+    "note": "Primary sources are the ICAR institutes/AICRPs that lead research on each crop in India. Secondary sources (KVK / State Agricultural University Extension) are the local, farmer-facing channels that publish the same recommendations as regional advisories and are the best point of contact for on-ground verification before applying any treatment. Where an official institute URL could not be independently confirmed, only the institute name is given — verify via icar.org.in or your local KVK before acting on the remedy.",
+    "general_portals": [
+      "ICAR (Indian Council of Agricultural Research) - https://icar.org.in",
+      "Farmer Portal, Ministry of Agriculture & Farmers Welfare - https://farmer.gov.in",
+      "Directorate of Plant Protection, Quarantine & Storage (DPPQS) - https://ppqs.gov.in",
+      "Krishi Vigyan Kendra (KVK) locator - https://kvk.icar.gov.in"
+    ]
+  },
+  "0": {
+    "class_name": "Apple___Apple_scab",
+    "primary_source": "ICAR-Central Institute of Temperate Horticulture (CITH), Srinagar, J&K",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department, Himachal Pradesh / J&K + local KVK",
+    "verification_note": "Cross-check spray schedule and fungicide dosage with your district KVK before application."
+  },
+  "1": {
+    "class_name": "Apple___Black_rot",
+    "primary_source": "ICAR-Central Institute of Temperate Horticulture (CITH), Srinagar, J&K",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department, Himachal Pradesh / J&K + local KVK",
+    "verification_note": "Verify pruning and fungicide timing with local horticulture extension officer."
+  },
+  "2": {
+    "class_name": "Apple___Cedar_apple_rust",
+    "primary_source": "ICAR-Central Institute of Temperate Horticulture (CITH), Srinagar, J&K",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department, Himachal Pradesh / J&K + local KVK",
+    "verification_note": "Confirm locally available resistant cultivars through your nearest KVK."
+  },
+  "3": {
+    "class_name": "Apple___healthy",
+    "primary_source": "ICAR-Central Institute of Temperate Horticulture (CITH), Srinagar, J&K",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department + local KVK",
+    "verification_note": "General orchard-care advisory; no specific verification needed."
+  },
+  "4": {
+    "class_name": "Blueberry___healthy",
+    "primary_source": "ICAR-Indian Institute of Horticultural Research (IIHR), Bengaluru",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department + local KVK",
+    "verification_note": "General care advisory; no specific verification needed."
+  },
+  "5": {
+    "class_name": "Cherry_(including_sour)___Powdery_mildew",
+    "primary_source": "ICAR-Central Institute of Temperate Horticulture (CITH), Srinagar, J&K",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department, Himachal Pradesh / J&K + local KVK",
+    "verification_note": "Confirm sulfur/fungicide dosage with local horticulture extension officer."
+  },
+  "6": {
+    "class_name": "Cherry_(including_sour)___healthy",
+    "primary_source": "ICAR-Central Institute of Temperate Horticulture (CITH), Srinagar, J&K",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department + local KVK",
+    "verification_note": "General orchard-care advisory; no specific verification needed."
+  },
+  "7": {
+    "class_name": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "primary_source": "ICAR-Indian Institute of Maize Research (IIMR), Ludhiana",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture Department (e.g., Directorate of Agriculture) + local KVK",
+    "verification_note": "Confirm fungicide name and dose approved for your state with the local KVK/agriculture officer."
+  },
+  "8": {
+    "class_name": "Corn_(maize)___Common_rust_",
+    "primary_source": "ICAR-Indian Institute of Maize Research (IIMR), Ludhiana",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture Department + local KVK",
+    "verification_note": "Confirm rust-resistant hybrid availability for your region via local KVK."
+  },
+  "9": {
+    "class_name": "Corn_(maize)___Northern_Leaf_Blight",
+    "primary_source": "ICAR-Indian Institute of Maize Research (IIMR), Ludhiana",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture Department + local KVK",
+    "verification_note": "Confirm fungicide name and dose with local KVK before spraying."
+  },
+  "10": {
+    "class_name": "Corn_(maize)___healthy",
+    "primary_source": "ICAR-Indian Institute of Maize Research (IIMR), Ludhiana",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture Department + local KVK",
+    "verification_note": "General crop-care advisory; no specific verification needed."
+  },
+  "11": {
+    "class_name": "Grape___Black_rot",
+    "primary_source": "ICAR-National Research Centre for Grapes (NRC Grapes), Pune",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "Maharashtra State Agriculture Department + local KVK",
+    "verification_note": "Confirm fungicide schedule with NRC Grapes advisory or local KVK before spraying."
+  },
+  "12": {
+    "class_name": "Grape___Esca_(Black_Measles)",
+    "primary_source": "ICAR-National Research Centre for Grapes (NRC Grapes), Pune",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "Maharashtra State Agriculture Department + local KVK",
+    "verification_note": "No curative chemical exists; confirm removal/sanitation protocol with local viticulture extension."
+  },
+  "13": {
+    "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "primary_source": "ICAR-National Research Centre for Grapes (NRC Grapes), Pune",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "Maharashtra State Agriculture Department + local KVK",
+    "verification_note": "Confirm fungicide dose with local KVK before spraying."
+  },
+  "14": {
+    "class_name": "Grape___healthy",
+    "primary_source": "ICAR-National Research Centre for Grapes (NRC Grapes), Pune",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "Maharashtra State Agriculture Department + local KVK",
+    "verification_note": "General vineyard-care advisory; no specific verification needed."
+  },
+  "15": {
+    "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+    "primary_source": "ICAR-Central Citrus Research Institute (CCRI), Nagpur",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department + local KVK",
+    "verification_note": "No cure exists; confirm psyllid-control insecticide and removal protocol with CCRI advisory or local KVK."
+  },
+  "16": {
+    "class_name": "Peach___Bacterial_spot",
+    "primary_source": "ICAR-Central Institute of Temperate Horticulture (CITH), Srinagar, J&K",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department, Himachal Pradesh / J&K + local KVK",
+    "verification_note": "Confirm copper bactericide dosage with local horticulture extension officer."
+  },
+  "17": {
+    "class_name": "Peach___healthy",
+    "primary_source": "ICAR-Central Institute of Temperate Horticulture (CITH), Srinagar, J&K",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department + local KVK",
+    "verification_note": "General orchard-care advisory; no specific verification needed."
+  },
+  "18": {
+    "class_name": "Pepper,_bell___Bacterial_spot",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "Confirm bactericide dose with local KVK before spraying."
+  },
+  "19": {
+    "class_name": "Pepper,_bell___healthy",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "General crop-care advisory; no specific verification needed."
+  },
+  "20": {
+    "class_name": "Potato___Early_blight",
+    "primary_source": "ICAR-Central Potato Research Institute (CPRI), Shimla",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture Department + local KVK",
+    "verification_note": "Confirm fungicide name and dose approved for your state with local KVK."
+  },
+  "21": {
+    "class_name": "Potato___Late_blight",
+    "primary_source": "ICAR-Central Potato Research Institute (CPRI), Shimla",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture Department + local KVK",
+    "verification_note": "CPRI issues region-specific late blight forecast/warning advisories - check these before spraying, and confirm dose with local KVK."
+  },
+  "22": {
+    "class_name": "Potato___healthy",
+    "primary_source": "ICAR-Central Potato Research Institute (CPRI), Shimla",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture Department + local KVK",
+    "verification_note": "General crop-care advisory; no specific verification needed."
+  },
+  "23": {
+    "class_name": "Raspberry___healthy",
+    "primary_source": "ICAR-Indian Institute of Horticultural Research (IIHR), Bengaluru",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department + local KVK",
+    "verification_note": "General crop-care advisory; no specific verification needed."
+  },
+  "24": {
+    "class_name": "Soybean___healthy",
+    "primary_source": "ICAR-Indian Institute of Soybean Research (IISR), Indore",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture Department + local KVK",
+    "verification_note": "General crop-care advisory; no specific verification needed."
+  },
+  "25": {
+    "class_name": "Squash___Powdery_mildew",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "Confirm sulfur/fungicide dosage with local KVK before spraying."
+  },
+  "26": {
+    "class_name": "Strawberry___Leaf_scorch",
+    "primary_source": "ICAR-Indian Institute of Horticultural Research (IIHR), Bengaluru",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department + local KVK",
+    "verification_note": "Confirm fungicide dose with local KVK before spraying."
+  },
+  "27": {
+    "class_name": "Strawberry___healthy",
+    "primary_source": "ICAR-Indian Institute of Horticultural Research (IIHR), Bengaluru",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Horticulture Department + local KVK",
+    "verification_note": "General crop-care advisory; no specific verification needed."
+  },
+  "28": {
+    "class_name": "Tomato___Bacterial_spot",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "Confirm bactericide dose with local KVK before spraying."
+  },
+  "29": {
+    "class_name": "Tomato___Early_blight",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "Confirm fungicide dose with local KVK before spraying."
+  },
+  "30": {
+    "class_name": "Tomato___Late_blight",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "Check regional late blight forecast advisories where available, and confirm dose with local KVK."
+  },
+  "31": {
+    "class_name": "Tomato___Leaf_Mold",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "Confirm fungicide dose with local KVK before spraying, especially for polyhouse/greenhouse tomato."
+  },
+  "32": {
+    "class_name": "Tomato___Septoria_leaf_spot",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "Confirm fungicide dose with local KVK before spraying."
+  },
+  "33": {
+    "class_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi / ICAR-National Bureau of Agricultural Insect Resources (NBAIR), Bengaluru",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "Confirm miticide name and dose, and local availability of predatory mites, with local KVK."
+  },
+  "34": {
+    "class_name": "Tomato___Target_Spot",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "Confirm fungicide dose with local KVK before spraying."
+  },
+  "35": {
+    "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "No cure exists; confirm whitefly-control insecticide and resistant-variety options with local KVK."
+  },
+  "36": {
+    "class_name": "Tomato___Tomato_mosaic_virus",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "No cure exists; confirm certified virus-free seed source with local KVK/state seed corporation."
+  },
+  "37": {
+    "class_name": "Tomato___healthy",
+    "primary_source": "ICAR-Indian Institute of Vegetable Research (IIVR), Varanasi",
+    "source_type": "ICAR Research Institute",
+    "secondary_source": "State Agriculture/Horticulture Department + local KVK",
+    "verification_note": "General crop-care advisory; no specific verification needed."
+  }
+}

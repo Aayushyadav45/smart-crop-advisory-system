@@ -1,0 +1,344 @@
+{
+  "0": {
+    "class_name": "Apple___Apple_scab",
+    "disease": "Apple Scab",
+    "healthy": false,
+    "remedy": "Remove and destroy fallen leaves and infected debris to reduce fungal spores. Apply fungicides containing captan or myclobutanil at bud break and repeat at 7-10 day intervals during wet spring weather. Prune trees to improve air circulation.",
+    "prevention": "Plant scab-resistant apple varieties, avoid overhead irrigation, and rake up fallen leaves each autumn.",
+    "remedy_hindi": "गिरे हुए पत्तों और संक्रमित मलबे को हटाकर नष्ट करें ताकि फफूंद के बीजाणु कम हों। कली फूटने के समय कैप्टन या मायक्लोबुटानिल युक्त फफूंदनाशक का छिड़काव करें और गीले वसंत मौसम में हर 7-10 दिन में दोहराएं। हवा के संचार को बेहतर बनाने के लिए पेड़ों की छंटाई करें।",
+    "prevention_hindi": "स्कैब-प्रतिरोधी सेब की किस्में लगाएं, ऊपर से सिंचाई से बचें, और हर पतझड़ में गिरे हुए पत्तों को इकट्ठा करें।"
+  },
+  "1": {
+    "class_name": "Apple___Black_rot",
+    "disease": "Apple Black Rot",
+    "healthy": false,
+    "remedy": "Prune out dead or cankered wood and remove mummified fruit from the tree and ground. Apply fungicides such as captan or thiophanate-methyl during the growing season, especially after wounds or hail damage.",
+    "prevention": "Sanitize pruning tools between cuts, avoid tree stress, and remove nearby wild/abandoned apple trees that can harbor infection.",
+    "remedy_hindi": "मृत या संक्रमित (कैंकर वाली) लकड़ी की छंटाई करें और पेड़ व जमीन से सूखे हुए फल हटाएं। बढ़ते मौसम में, खासकर घाव या ओलों से नुकसान के बाद, कैप्टन या थायोफैनेट-मिथाइल जैसे फफूंदनाशक का छिड़काव करें।",
+    "prevention_hindi": "छंटाई के औजारों को कटौतियों के बीच साफ करें, पेड़ पर तनाव से बचें, और आस-पास के जंगली/परित्यक्त सेब के पेड़ों को हटाएं जो संक्रमण फैला सकते हैं।"
+  },
+  "2": {
+    "class_name": "Apple___Cedar_apple_rust",
+    "disease": "Cedar Apple Rust",
+    "healthy": false,
+    "remedy": "Apply protectant fungicides (myclobutanil or mancozeb) starting at pink bud stage and continuing through early summer. Remove nearby cedar/juniper hosts if feasible.",
+    "prevention": "Plant rust-resistant apple cultivars and maintain distance (2+ miles ideally) from cedar or juniper trees, which are alternate hosts.",
+    "remedy_hindi": "गुलाबी कली अवस्था से शुरू करके शुरुआती गर्मियों तक सुरक्षात्मक फफूंदनाशक (मायक्लोबुटानिल या मैंकोज़ेब) का छिड़काव करें। यदि संभव हो तो आस-पास के देवदार/जुनिपर मेजबान पेड़ों को हटाएं।",
+    "prevention_hindi": "रस्ट-प्रतिरोधी सेब किस्में लगाएं और देवदार या जुनिपर पेड़ों से दूरी (आदर्श रूप से 2+ मील) बनाए रखें, जो वैकल्पिक मेजबान होते हैं।"
+  },
+  "3": {
+    "class_name": "Apple___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Continue regular monitoring, balanced fertilization, and proper irrigation.",
+    "prevention": "Maintain good orchard hygiene, regular pruning, and periodic scouting for early signs of disease.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। नियमित निगरानी, संतुलित उर्वरक और उचित सिंचाई जारी रखें।",
+    "prevention_hindi": "अच्छी बाग स्वच्छता, नियमित छंटाई और रोग के शुरुआती लक्षणों की समय-समय पर जांच बनाए रखें।"
+  },
+  "4": {
+    "class_name": "Blueberry___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Maintain soil acidity (pH 4.5-5.5) and consistent moisture.",
+    "prevention": "Mulch to retain moisture, prune annually, and monitor for pests and fungal spotting.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। मिट्टी की अम्लता (pH 4.5-5.5) और लगातार नमी बनाए रखें।",
+    "prevention_hindi": "नमी बनाए रखने के लिए मल्चिंग करें, हर साल छंटाई करें, और कीट व फफूंद के धब्बों की निगरानी करें।"
+  },
+  "5": {
+    "class_name": "Cherry_(including_sour)___Powdery_mildew",
+    "disease": "Cherry Powdery Mildew",
+    "healthy": false,
+    "remedy": "Apply sulfur-based or potassium bicarbonate fungicides at first sign of white powdery patches. Neem oil can also help in early/mild infections.",
+    "prevention": "Prune to improve air circulation, avoid excess nitrogen fertilization, and space trees adequately.",
+    "remedy_hindi": "सफेद पाउडर जैसे धब्बे दिखते ही सल्फर-आधारित या पोटेशियम बाइकार्बोनेट फफूंदनाशक का छिड़काव करें। हल्के या शुरुआती संक्रमण में नीम का तेल भी सहायक हो सकता है।",
+    "prevention_hindi": "हवा के संचार को बेहतर बनाने के लिए छंटाई करें, अधिक नाइट्रोजन उर्वरक से बचें, और पेड़ों के बीच उचित दूरी रखें।"
+  },
+  "6": {
+    "class_name": "Cherry_(including_sour)___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Continue routine care and monitoring.",
+    "prevention": "Regular pruning for airflow and balanced fertilization to prevent future disease pressure.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। नियमित देखभाल और निगरानी जारी रखें।",
+    "prevention_hindi": "हवा के प्रवाह के लिए नियमित छंटाई और भविष्य में रोग के दबाव को रोकने के लिए संतुलित उर्वरक।"
+  },
+  "7": {
+    "class_name": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "disease": "Gray Leaf Spot",
+    "healthy": false,
+    "remedy": "Apply strobilurin or triazole fungicides at early disease onset, particularly in high-risk humid conditions. Timing is critical around tasseling stage.",
+    "prevention": "Rotate crops (avoid continuous corn), use resistant hybrids, and till under crop residue to reduce spore survival.",
+    "remedy_hindi": "रोग की शुरुआत में, खासकर अधिक नमी वाली स्थितियों में, स्ट्रोबिलुरिन या ट्राइज़ोल फफूंदनाशक का छिड़काव करें। टैसलिंग अवस्था के आसपास समय का विशेष ध्यान रखें।",
+    "prevention_hindi": "फसल चक्र अपनाएं (लगातार मक्का न बोएं), प्रतिरोधी संकर किस्मों का उपयोग करें, और बीजाणुओं की जीवितता कम करने के लिए फसल अवशेषों को जुताई में मिलाएं।"
+  },
+  "8": {
+    "class_name": "Corn_(maize)___Common_rust_",
+    "disease": "Common Rust",
+    "healthy": false,
+    "remedy": "Apply fungicides containing azoxystrobin or propiconazole if rust pustules appear early and spread rapidly, especially on susceptible hybrids.",
+    "prevention": "Plant rust-resistant hybrids; most modern corn varieties have adequate resistance so fungicide is rarely required.",
+    "remedy_hindi": "यदि रस्ट के फफोले जल्दी दिखें और तेजी से फैलें, खासकर संवेदनशील संकर किस्मों में, तो एज़ोक्सीस्ट्रोबिन या प्रोपिकोनाज़ोल युक्त फफूंदनाशक का छिड़काव करें।",
+    "prevention_hindi": "रस्ट-प्रतिरोधी संकर किस्में लगाएं; अधिकांश आधुनिक मक्का किस्मों में पर्याप्त प्रतिरोधक क्षमता होती है इसलिए फफूंदनाशक की शायद ही जरूरत पड़े।"
+  },
+  "9": {
+    "class_name": "Corn_(maize)___Northern_Leaf_Blight",
+    "disease": "Northern Leaf Blight",
+    "healthy": false,
+    "remedy": "Apply foliar fungicides (e.g., pyraclostrobin, propiconazole) when lesions appear on the upper leaves before tasseling for best protection.",
+    "prevention": "Use resistant hybrids, rotate with non-host crops, and manage crop residue through tillage.",
+    "remedy_hindi": "टैसलिंग से पहले ऊपरी पत्तों पर घाव दिखने पर सर्वोत्तम सुरक्षा के लिए पत्तियों पर फफूंदनाशक (जैसे पायराक्लोस्ट्रोबिन, प्रोपिकोनाज़ोल) का छिड़काव करें।",
+    "prevention_hindi": "प्रतिरोधी संकर किस्मों का उपयोग करें, गैर-मेजबान फसलों के साथ फसल चक्र अपनाएं, और जुताई के माध्यम से फसल अवशेषों का प्रबंधन करें।"
+  },
+  "10": {
+    "class_name": "Corn_(maize)___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Continue standard nutrient and irrigation management.",
+    "prevention": "Practice crop rotation and monitor fields regularly during the growing season.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। मानक पोषक तत्व और सिंचाई प्रबंधन जारी रखें।",
+    "prevention_hindi": "फसल चक्र अपनाएं और बढ़ते मौसम के दौरान नियमित रूप से खेतों की निगरानी करें।"
+  },
+  "11": {
+    "class_name": "Grape___Black_rot",
+    "disease": "Grape Black Rot",
+    "healthy": false,
+    "remedy": "Apply fungicides such as mancozeb or myclobutanil starting at bud break and continuing on a 10-14 day schedule through fruit development. Remove mummified berries.",
+    "prevention": "Prune for canopy airflow, remove infected plant debris, and choose resistant grape varieties where possible.",
+    "remedy_hindi": "कली फूटने से शुरू करके फल विकास तक 10-14 दिन के अंतराल पर मैंकोज़ेब या मायक्लोबुटानिल जैसे फफूंदनाशक का छिड़काव करें। सूखे हुए (ममीफाइड) जामुन हटाएं।",
+    "prevention_hindi": "छतरी में हवा के प्रवाह के लिए छंटाई करें, संक्रमित पौधे का मलबा हटाएं, और जहां संभव हो प्रतिरोधी अंगूर किस्मों को चुनें।"
+  },
+  "12": {
+    "class_name": "Grape___Esca_(Black_Measles)",
+    "disease": "Esca (Black Measles)",
+    "healthy": false,
+    "remedy": "No curative fungicide exists; remove and destroy severely infected vines/wood. Apply wound-protectant treatments after pruning to limit new infections.",
+    "prevention": "Avoid pruning during wet weather, sanitize tools, and use delayed/double pruning techniques to reduce infection risk.",
+    "remedy_hindi": "कोई उपचारात्मक फफूंदनाशक मौजूद नहीं है; गंभीर रूप से संक्रमित बेलों/लकड़ी को हटाकर नष्ट करें। नए संक्रमण को सीमित करने के लिए छंटाई के बाद घाव-सुरक्षात्मक उपचार लगाएं।",
+    "prevention_hindi": "गीले मौसम में छंटाई से बचें, औजारों को स्वच्छ रखें, और संक्रमण जोखिम कम करने के लिए विलंबित/दोहरी छंटाई तकनीकों का उपयोग करें।"
+  },
+  "13": {
+    "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "disease": "Grape Leaf Blight (Isariopsis Leaf Spot)",
+    "healthy": false,
+    "remedy": "Apply copper-based or mancozeb fungicides at early symptom onset, repeating every 10-14 days during humid conditions.",
+    "prevention": "Improve vineyard airflow through canopy management and remove fallen infected leaves.",
+    "remedy_hindi": "लक्षण दिखते ही कॉपर-आधारित या मैंकोज़ेब फफूंदनाशक का छिड़काव करें, नमी वाली स्थितियों में हर 10-14 दिन में दोहराएं।",
+    "prevention_hindi": "छतरी प्रबंधन के माध्यम से अंगूर के बाग में हवा का प्रवाह सुधारें और गिरे हुए संक्रमित पत्तों को हटाएं।"
+  },
+  "14": {
+    "class_name": "Grape___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Continue standard vineyard management.",
+    "prevention": "Regular canopy management and periodic scouting for early disease symptoms.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। मानक अंगूर बाग प्रबंधन जारी रखें।",
+    "prevention_hindi": "नियमित छतरी प्रबंधन और रोग के शुरुआती लक्षणों की समय-समय पर जांच।"
+  },
+  "15": {
+    "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+    "disease": "Citrus Greening (Huanglongbing)",
+    "healthy": false,
+    "remedy": "No cure exists; remove and destroy infected trees to prevent spread. Control the Asian citrus psyllid vector using approved insecticides.",
+    "prevention": "Use certified disease-free nursery stock, monitor and control psyllid populations, and remove infected trees promptly.",
+    "remedy_hindi": "कोई इलाज मौजूद नहीं है; फैलाव रोकने के लिए संक्रमित पेड़ों को हटाकर नष्ट करें। स्वीकृत कीटनाशकों का उपयोग करके एशियाई सिट्रस साइलिड वाहक को नियंत्रित करें।",
+    "prevention_hindi": "प्रमाणित रोग-मुक्त नर्सरी स्टॉक का उपयोग करें, साइलिड की आबादी की निगरानी और नियंत्रण करें, और संक्रमित पेड़ों को तुरंत हटाएं।"
+  },
+  "16": {
+    "class_name": "Peach___Bacterial_spot",
+    "disease": "Peach Bacterial Spot",
+    "healthy": false,
+    "remedy": "Apply copper-based bactericides during dormancy and early season. Avoid excessive nitrogen which increases susceptibility.",
+    "prevention": "Plant resistant peach varieties, avoid overhead irrigation, and space trees for good air circulation.",
+    "remedy_hindi": "सुप्तावस्था और शुरुआती मौसम में कॉपर-आधारित बैक्टीरिया-नाशक का छिड़काव करें। अत्यधिक नाइट्रोजन से बचें जो संवेदनशीलता बढ़ाता है।",
+    "prevention_hindi": "प्रतिरोधी आड़ू किस्में लगाएं, ऊपर से सिंचाई से बचें, और अच्छे हवा संचार के लिए पेड़ों के बीच दूरी रखें।"
+  },
+  "17": {
+    "class_name": "Peach___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Maintain regular orchard care.",
+    "prevention": "Routine pruning, balanced fertilization, and disease scouting.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। नियमित बाग देखभाल बनाए रखें।",
+    "prevention_hindi": "नियमित छंटाई, संतुलित उर्वरक और रोग की जांच।"
+  },
+  "18": {
+    "class_name": "Pepper,_bell___Bacterial_spot",
+    "disease": "Bell Pepper Bacterial Spot",
+    "healthy": false,
+    "remedy": "Apply copper-based bactericides mixed with mancozeb at first sign of spotting. Remove and destroy severely infected plants.",
+    "prevention": "Use disease-free seed/transplants, avoid working in wet fields, and rotate crops with non-host plants for 2+ years.",
+    "remedy_hindi": "धब्बे दिखने के पहले संकेत पर मैंकोज़ेब के साथ कॉपर-आधारित बैक्टीरिया-नाशक का छिड़काव करें। गंभीर रूप से संक्रमित पौधों को हटाकर नष्ट करें।",
+    "prevention_hindi": "रोग-मुक्त बीज/पौध का उपयोग करें, गीले खेतों में काम करने से बचें, और गैर-मेजबान पौधों के साथ 2+ वर्षों के लिए फसल चक्र अपनाएं।"
+  },
+  "19": {
+    "class_name": "Pepper,_bell___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Continue regular watering and fertilization schedule.",
+    "prevention": "Monitor plants regularly and maintain good field sanitation.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। नियमित सिंचाई और उर्वरक कार्यक्रम जारी रखें।",
+    "prevention_hindi": "पौधों की नियमित निगरानी करें और खेत की अच्छी स्वच्छता बनाए रखें।"
+  },
+  "20": {
+    "class_name": "Potato___Early_blight",
+    "disease": "Potato Early Blight",
+    "healthy": false,
+    "remedy": "Apply fungicides such as chlorothalonil or mancozeb at first sign of leaf spots, repeating every 7-10 days. Remove infected foliage.",
+    "prevention": "Rotate crops, avoid overhead watering, and ensure balanced fertilization (avoid nitrogen deficiency).",
+    "remedy_hindi": "पत्तों पर धब्बे दिखने के पहले संकेत पर क्लोरोथालोनिल या मैंकोज़ेब जैसे फफूंदनाशक का छिड़काव करें, हर 7-10 दिन में दोहराएं। संक्रमित पत्तियों को हटाएं।",
+    "prevention_hindi": "फसल चक्र अपनाएं, ऊपर से पानी देने से बचें, और संतुलित उर्वरक सुनिश्चित करें (नाइट्रोजन की कमी से बचें)।"
+  },
+  "21": {
+    "class_name": "Potato___Late_blight",
+    "disease": "Potato Late Blight",
+    "healthy": false,
+    "remedy": "Apply fungicides containing chlorothalonil or copper compounds immediately upon detection; late blight spreads rapidly in cool, wet weather. Destroy infected plants promptly.",
+    "prevention": "Use certified disease-free seed potatoes, avoid overhead irrigation, and destroy volunteer potato plants and cull piles.",
+    "remedy_hindi": "पता चलते ही तुरंत क्लोरोथालोनिल या कॉपर यौगिक युक्त फफूंदनाशक का छिड़काव करें; ठंडे, गीले मौसम में लेट ब्लाइट तेजी से फैलता है। संक्रमित पौधों को तुरंत नष्ट करें।",
+    "prevention_hindi": "प्रमाणित रोग-मुक्त बीज आलू का उपयोग करें, ऊपर से सिंचाई से बचें, और स्वयं उगे आलू के पौधों व कचरे के ढेर को नष्ट करें।"
+  },
+  "22": {
+    "class_name": "Potato___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Continue standard cultivation practices.",
+    "prevention": "Practice crop rotation and monitor fields for early disease signs.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। मानक खेती पद्धतियां जारी रखें।",
+    "prevention_hindi": "फसल चक्र अपनाएं और रोग के शुरुआती संकेतों के लिए खेतों की निगरानी करें।"
+  },
+  "23": {
+    "class_name": "Raspberry___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Maintain proper pruning and irrigation.",
+    "prevention": "Ensure good air circulation between canes and remove old fruiting canes after harvest.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। उचित छंटाई और सिंचाई बनाए रखें।",
+    "prevention_hindi": "टहनियों के बीच अच्छा हवा संचार सुनिश्चित करें और कटाई के बाद पुरानी फल देने वाली टहनियां हटाएं।"
+  },
+  "24": {
+    "class_name": "Soybean___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Continue standard field management.",
+    "prevention": "Practice crop rotation and monitor for pest/disease pressure throughout the season.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। मानक खेत प्रबंधन जारी रखें।",
+    "prevention_hindi": "फसल चक्र अपनाएं और पूरे मौसम में कीट/रोग दबाव की निगरानी करें।"
+  },
+  "25": {
+    "class_name": "Squash___Powdery_mildew",
+    "disease": "Squash Powdery Mildew",
+    "healthy": false,
+    "remedy": "Apply sulfur, potassium bicarbonate, or neem oil sprays at first sign of white powdery patches on leaves. Remove heavily infected leaves.",
+    "prevention": "Space plants for airflow, avoid overhead watering, and choose mildew-resistant squash varieties.",
+    "remedy_hindi": "पत्तों पर सफेद पाउडर जैसे धब्बे दिखने के पहले संकेत पर सल्फर, पोटेशियम बाइकार्बोनेट, या नीम तेल का छिड़काव करें। गंभीर रूप से संक्रमित पत्तियों को हटाएं।",
+    "prevention_hindi": "हवा के प्रवाह के लिए पौधों के बीच दूरी रखें, ऊपर से पानी देने से बचें, और मिल्ड्यू-प्रतिरोधी स्क्वैश किस्में चुनें।"
+  },
+  "26": {
+    "class_name": "Strawberry___Leaf_scorch",
+    "disease": "Strawberry Leaf Scorch",
+    "healthy": false,
+    "remedy": "Apply fungicides such as captan or myclobutanil at first symptom appearance. Remove and destroy infected leaves after harvest.",
+    "prevention": "Avoid overhead irrigation, ensure good bed spacing for airflow, and remove old infected foliage each season.",
+    "remedy_hindi": "पहले लक्षण दिखने पर कैप्टन या मायक्लोबुटानिल जैसे फफूंदनाशक का छिड़काव करें। कटाई के बाद संक्रमित पत्तियों को हटाकर नष्ट करें।",
+    "prevention_hindi": "ऊपर से सिंचाई से बचें, हवा के प्रवाह के लिए क्यारियों के बीच अच्छी दूरी सुनिश्चित करें, और हर मौसम में पुरानी संक्रमित पत्तियां हटाएं।"
+  },
+  "27": {
+    "class_name": "Strawberry___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Continue standard care and monitoring.",
+    "prevention": "Renovate beds annually and maintain good field sanitation.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। मानक देखभाल और निगरानी जारी रखें।",
+    "prevention_hindi": "हर साल क्यारियों का नवीनीकरण करें और खेत की अच्छी स्वच्छता बनाए रखें।"
+  },
+  "28": {
+    "class_name": "Tomato___Bacterial_spot",
+    "disease": "Tomato Bacterial Spot",
+    "healthy": false,
+    "remedy": "Apply copper-based bactericides combined with mancozeb at early symptom onset. Remove and destroy severely infected plants.",
+    "prevention": "Use certified disease-free seed/transplants, avoid overhead watering, and rotate crops for 2-3 years.",
+    "remedy_hindi": "लक्षण के पहले संकेत पर मैंकोज़ेब के साथ कॉपर-आधारित बैक्टीरिया-नाशक का छिड़काव करें। गंभीर रूप से संक्रमित पौधों को हटाकर नष्ट करें।",
+    "prevention_hindi": "प्रमाणित रोग-मुक्त बीज/पौध का उपयोग करें, ऊपर से पानी देने से बचें, और 2-3 वर्षों के लिए फसल चक्र अपनाएं।"
+  },
+  "29": {
+    "class_name": "Tomato___Early_blight",
+    "disease": "Tomato Early Blight",
+    "healthy": false,
+    "remedy": "Apply fungicides like chlorothalonil or mancozeb at first sign of concentric-ring leaf spots, repeating every 7-10 days. Remove lower infected leaves.",
+    "prevention": "Mulch around plants, stake for airflow, and avoid overhead irrigation.",
+    "remedy_hindi": "पत्तों पर गोल छल्लेदार धब्बे दिखने के पहले संकेत पर क्लोरोथालोनिल या मैंकोज़ेब जैसे फफूंदनाशक का छिड़काव करें, हर 7-10 दिन में दोहराएं। निचली संक्रमित पत्तियों को हटाएं।",
+    "prevention_hindi": "पौधों के आसपास मल्चिंग करें, हवा के प्रवाह के लिए सहारा दें, और ऊपर से सिंचाई से बचें।"
+  },
+  "30": {
+    "class_name": "Tomato___Late_blight",
+    "disease": "Tomato Late Blight",
+    "healthy": false,
+    "remedy": "Apply fungicides containing chlorothalonil or copper compounds immediately; destroy infected plants promptly to prevent rapid spread in cool, wet weather.",
+    "prevention": "Use resistant varieties, avoid overhead watering, and ensure good field drainage and airflow.",
+    "remedy_hindi": "तुरंत क्लोरोथालोनिल या कॉपर यौगिक युक्त फफूंदनाशक का छिड़काव करें; ठंडे, गीले मौसम में तेजी से फैलाव रोकने के लिए संक्रमित पौधों को तुरंत नष्ट करें।",
+    "prevention_hindi": "प्रतिरोधी किस्मों का उपयोग करें, ऊपर से पानी देने से बचें, और अच्छी खेत जल निकासी व हवा प्रवाह सुनिश्चित करें।"
+  },
+  "31": {
+    "class_name": "Tomato___Leaf_Mold",
+    "disease": "Tomato Leaf Mold",
+    "healthy": false,
+    "remedy": "Apply fungicides such as chlorothalonil or copper-based sprays. Improve greenhouse/field ventilation to reduce humidity around foliage.",
+    "prevention": "Reduce humidity through spacing and ventilation, avoid wetting leaves, and use resistant varieties where available.",
+    "remedy_hindi": "क्लोरोथालोनिल या कॉपर-आधारित स्प्रे जैसे फफूंदनाशक का छिड़काव करें। पत्तों के आसपास नमी कम करने के लिए ग्रीनहाउस/खेत का वेंटिलेशन सुधारें।",
+    "prevention_hindi": "दूरी और वेंटिलेशन के माध्यम से नमी कम करें, पत्तों को गीला होने से बचाएं, और जहां उपलब्ध हो प्रतिरोधी किस्में इस्तेमाल करें।"
+  },
+  "32": {
+    "class_name": "Tomato___Septoria_leaf_spot",
+    "disease": "Tomato Septoria Leaf Spot",
+    "healthy": false,
+    "remedy": "Apply fungicides like chlorothalonil or mancozeb at first sign of small circular spots, repeating every 7-10 days. Remove infected lower leaves.",
+    "prevention": "Rotate crops, mulch to prevent soil splash, and avoid overhead irrigation.",
+    "remedy_hindi": "छोटे गोल धब्बे दिखने के पहले संकेत पर क्लोरोथालोनिल या मैंकोज़ेब जैसे फफूंदनाशक का छिड़काव करें, हर 7-10 दिन में दोहराएं। संक्रमित निचली पत्तियां हटाएं।",
+    "prevention_hindi": "फसल चक्र अपनाएं, मिट्टी के छींटों को रोकने के लिए मल्चिंग करें, और ऊपर से सिंचाई से बचें।"
+  },
+  "33": {
+    "class_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "disease": "Two-Spotted Spider Mite Infestation",
+    "healthy": false,
+    "remedy": "Apply miticides or insecticidal soap/neem oil, spraying undersides of leaves thoroughly. Introduce predatory mites as a biological control option.",
+    "prevention": "Maintain adequate humidity, avoid drought stress, and regularly hose down plants to disrupt mite populations.",
+    "remedy_hindi": "माइटिसाइड या कीटनाशक साबुन/नीम तेल का छिड़काव करें, पत्तों के निचले हिस्से पर अच्छी तरह छिड़कें। जैविक नियंत्रण विकल्प के रूप में शिकारी माइट्स का उपयोग करें।",
+    "prevention_hindi": "पर्याप्त नमी बनाए रखें, सूखे के तनाव से बचें, और माइट्स की आबादी को बाधित करने के लिए नियमित रूप से पौधों पर पानी छिड़कें।"
+  },
+  "34": {
+    "class_name": "Tomato___Target_Spot",
+    "disease": "Tomato Target Spot",
+    "healthy": false,
+    "remedy": "Apply fungicides such as chlorothalonil or azoxystrobin at first symptom appearance, repeating on a regular schedule during humid weather.",
+    "prevention": "Improve air circulation through pruning/staking and avoid overhead irrigation.",
+    "remedy_hindi": "पहले लक्षण दिखने पर क्लोरोथालोनिल या एज़ोक्सीस्ट्रोबिन जैसे फफूंदनाशक का छिड़काव करें, नमी वाले मौसम में नियमित अंतराल पर दोहराएं।",
+    "prevention_hindi": "छंटाई/सहारे के माध्यम से हवा का प्रवाह सुधारें और ऊपर से सिंचाई से बचें।"
+  },
+  "35": {
+    "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "disease": "Tomato Yellow Leaf Curl Virus",
+    "healthy": false,
+    "remedy": "No cure exists; remove and destroy infected plants immediately. Control whitefly populations (the virus vector) using insecticides or reflective mulches.",
+    "prevention": "Use virus-resistant tomato varieties, use whitefly exclusion nets/mulches, and control weeds that host whiteflies.",
+    "remedy_hindi": "कोई इलाज मौजूद नहीं है; संक्रमित पौधों को तुरंत हटाकर नष्ट करें। कीटनाशकों या परावर्तक मल्च का उपयोग करके सफेद मक्खी (वायरस वाहक) की आबादी को नियंत्रित करें।",
+    "prevention_hindi": "वायरस-प्रतिरोधी टमाटर किस्मों का उपयोग करें, सफेद मक्खी रोकने वाले जाल/मल्च का उपयोग करें, और सफेद मक्खी को आश्रय देने वाले खरपतवारों को नियंत्रित करें।"
+  },
+  "36": {
+    "class_name": "Tomato___Tomato_mosaic_virus",
+    "disease": "Tomato Mosaic Virus",
+    "healthy": false,
+    "remedy": "No chemical cure exists; remove and destroy infected plants. Disinfect tools and hands (tobacco/tomato mosaic virus spreads easily by contact).",
+    "prevention": "Use certified virus-free seed, wash hands and tools between handling plants, and avoid tobacco use near plants (virus can spread from tobacco products).",
+    "remedy_hindi": "कोई रासायनिक इलाज मौजूद नहीं है; संक्रमित पौधों को हटाएं। औजारों और हाथों को कीटाणुरहित करें (तंबाकू/टमाटर मोज़ेक वायरस संपर्क से आसानी से फैलता है)।",
+    "prevention_hindi": "प्रमाणित वायरस-मुक्त बीज का उपयोग करें, पौधों को संभालने के बीच हाथ और औजार धोएं, और पौधों के पास तंबाकू के उपयोग से बचें (वायरस तंबाकू उत्पादों से फैल सकता है)।"
+  },
+  "37": {
+    "class_name": "Tomato___healthy",
+    "disease": "Healthy",
+    "healthy": true,
+    "remedy": "No treatment needed. Continue regular monitoring and care.",
+    "prevention": "Practice crop rotation, proper spacing, and routine scouting for early disease signs.",
+    "remedy_hindi": "कोई उपचार आवश्यक नहीं। नियमित निगरानी और देखभाल जारी रखें।",
+    "prevention_hindi": "फसल चक्र, उचित दूरी, और रोग के शुरुआती संकेतों की नियमित जांच अपनाएं।"
+  }
+}

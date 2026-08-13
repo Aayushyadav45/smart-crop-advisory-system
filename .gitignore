@@ -1,0 +1,23 @@
+# ML
+*.h5
+*.tflite
+*.pt
+*.ipynb_checkpoints/
+data/raw/
+data/PlantVillage/
+
+# Backend
+venv/
+env/
+__pycache__/
+.env
+
+# Frontend
+node_modules/
+build/
+dist/
+.expo/
+
+# OS
+.DS_Store
+Thumbs.db

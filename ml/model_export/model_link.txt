@@ -1,0 +1,8 @@
+Crop Disease Prediction Model
+
+The trained ML model is too large to include in this project.
+
+Download the model from:
+https://drive.google.com/file/d/1UNnxysvR2Pr4xqUtMYh1qmmo9fa0ncWC/view?usp=sharing
+
+
