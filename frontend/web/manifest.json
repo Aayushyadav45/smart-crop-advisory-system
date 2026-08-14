@@ -1,6 +1,6 @@
 {
-    "name": "smart_crop_advisory",
-    "short_name": "smart_crop_advisory",
+    "name": "smart_crop_app",
+    "short_name": "smart_crop_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

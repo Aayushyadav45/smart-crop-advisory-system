@@ -1,4 +1,4 @@
-package com.example.smart_crop_advisory
+package com.example.smart_crop_app
 
 import io.flutter.embedding.android.FlutterActivity
 

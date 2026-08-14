@@ -9,20 +9,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:smart_crop_advisory/main.dart';
-import 'package:smart_crop_advisory/providers/app_provider.dart';
-import 'package:provider/provider.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(
-      MultiProvider(
-        providers: [
-          ChangeNotifierProvider(create: (_) => AppProvider()),
-        ],
-        child: const SmartCropAdvisoryApp(),
-      ),
-    );
+    await tester.pumpWidget(const SmartCropAdvisoryApp());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
