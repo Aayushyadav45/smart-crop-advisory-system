@@ -4,16 +4,13 @@ import 'package:provider/provider.dart';
 import 'providers/app_provider.dart';
 import 'screens/splash_screen.dart';
 import 'screens/scan_leaf_screen.dart';
-import 'screens/diagnosis_screen.dart';
 import 'screens/advisory_screen.dart';
 import 'screens/government_schemes_screen.dart';
 
 void main() {
   runApp(
     MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => AppProvider()),
-      ],
+      providers: [ChangeNotifierProvider(create: (_) => AppProvider())],
       child: const SmartCropAdvisoryApp(),
     ),
   );
@@ -55,11 +52,9 @@ class SmartCropAdvisoryApp extends StatelessWidget {
       home: const SplashScreen(),
       routes: {
         '/scan_leaf': (context) => const ScanLeafScreen(),
-        '/diagnosis': (context) => const DiagnosisScreen(),
         '/advisory': (context) => const AdvisoryScreen(),
         '/schemes': (context) => const GovernmentSchemesScreen(),
       },
     );
   }
 }
-

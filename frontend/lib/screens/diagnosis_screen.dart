@@ -1,13 +1,15 @@
-import 'dart:io';
+import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/app_provider.dart';
 import '../theme/colors.dart';
+import '../services/api_service.dart';
 
 class DiagnosisScreen extends StatelessWidget {
-  final String? imagePath;
+  final Uint8List? imageBytes;
+  final PredictionResult result;
 
-  const DiagnosisScreen({super.key, this.imagePath});
+  const DiagnosisScreen({super.key, this.imageBytes, required this.result});
 
   @override
   Widget build(BuildContext context) {
@@ -36,14 +38,14 @@ class DiagnosisScreen extends StatelessWidget {
                     offset: const Offset(0, 5),
                   )
                 ],
-                image: imagePath != null
+                image: imageBytes != null
                     ? DecorationImage(
-                        image: FileImage(File(imagePath!)),
+                        image: MemoryImage(imageBytes!),
                         fit: BoxFit.cover,
                       )
                     : null,
               ),
-              child: imagePath == null
+              child: imageBytes == null
                   ? Center(
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
@@ -76,19 +78,21 @@ class DiagnosisScreen extends StatelessWidget {
                     children: [
                       const Icon(Icons.warning_amber_rounded, color: AppColors.alertRed),
                       const SizedBox(width: 8),
-                      Text(
-                        appProvider.t('tomato_blight'),
-                        style: const TextStyle(
-                          color: AppColors.alertRed,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18,
+                      Expanded(
+                        child: Text(
+                          result.disease,
+                          style: const TextStyle(
+                            color: AppColors.alertRed,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
                         ),
                       ),
                     ],
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    appProvider.t('confidence'),
+                    '${(result.confidence * 100).toStringAsFixed(1)}% ${appProvider.t('confidence')}',
                     style: TextStyle(
                       color: AppColors.alertRed.withValues(alpha: 0.8),
                       fontWeight: FontWeight.w600,
@@ -130,7 +134,7 @@ class DiagnosisScreen extends StatelessWidget {
                   const SizedBox(width: 16),
                   Expanded(
                     child: Text(
-                      appProvider.t('remedy_desc'),
+                      result.remedyEn,
                       style: const TextStyle(
                         color: AppColors.textDark,
                         fontSize: 16,

@@ -4,6 +4,7 @@ import 'package:image_picker/image_picker.dart';
 import '../providers/app_provider.dart';
 import '../theme/colors.dart';
 import 'diagnosis_screen.dart';
+import '../services/api_service.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -16,6 +17,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   late AnimationController _animationController;
   late Animation<double> _animation;
   final ImagePicker _picker = ImagePicker();
+  bool _isLaunchingCamera = false;
 
   @override
   void initState() {
@@ -43,20 +45,30 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   Future<void> _launchCamera() async {
     try {
       final XFile? image = await _picker.pickImage(source: ImageSource.camera);
-      if (image != null) {
-        if (!mounted) return;
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => DiagnosisScreen(imagePath: image.path),
+      if (image == null) return;
+
+      setState(() => _isLaunchingCamera = true);
+
+      final bytes = await image.readAsBytes();
+      final result = await ApiService.predictDisease(image);
+
+      if (!mounted) return;
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => DiagnosisScreen(
+            imageBytes: bytes,
+            result: result,
           ),
-        );
-      }
+        ),
+      );
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Failed to pick image: $e')),
+        SnackBar(content: Text('Failed to get prediction: $e')),
       );
+    } finally {
+      if (mounted) setState(() => _isLaunchingCamera = false);
     }
   }
 
@@ -123,7 +135,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
               children: [
                 // Tap to scan a leaf
                 GestureDetector(
-                  onTap: _launchCamera,
+                  onTap: _isLaunchingCamera ? null : _launchCamera,
                   child: Container(
                     height: 180,
                     width: double.infinity,
@@ -154,28 +166,30 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                           ),
                         ),
                         Center(
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                padding: const EdgeInsets.all(12),
-                                decoration: BoxDecoration(
-                                  color: Colors.white.withValues(alpha: 0.2),
-                                  shape: BoxShape.circle,
+                          child: _isLaunchingCamera
+                              ? const CircularProgressIndicator(color: Colors.white)
+                              : Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      padding: const EdgeInsets.all(12),
+                                      decoration: BoxDecoration(
+                                        color: Colors.white.withValues(alpha: 0.2),
+                                        shape: BoxShape.circle,
+                                      ),
+                                      child: const Icon(Icons.camera_alt, color: Colors.white, size: 36),
+                                    ),
+                                    const SizedBox(height: 16),
+                                    Text(
+                                      appProvider.t('tap_to_scan'),
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.w700,
+                                      ),
+                                    ),
+                                  ],
                                 ),
-                                child: const Icon(Icons.camera_alt, color: Colors.white, size: 36),
-                              ),
-                              const SizedBox(height: 16),
-                              Text(
-                                appProvider.t('tap_to_scan'),
-                                style: const TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 20,
-                                  fontWeight: FontWeight.w700,
-                                ),
-                              ),
-                            ],
-                          ),
                         ),
                       ],
                     ),
@@ -287,7 +301,9 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                 
                 GestureDetector(
                   onTap: () {
-                    Navigator.pushNamed(context, '/diagnosis');
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text('Scan history coming soon')),
+                    );
                   },
                   child: Container(
                     padding: const EdgeInsets.all(16.0),
@@ -343,5 +359,3 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
     );
   }
 }
-
-
