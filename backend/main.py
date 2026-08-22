@@ -1,5 +1,5 @@
-from fastapi import FastAPI, File, UploadFile, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI, File, UploadFile, HTTPException # type: ignore
+from fastapi.middleware.cors import CORSMiddleware # type: ignore
 from PIL import Image
 import numpy as np
 import io

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "41401140527",
+    "project_id": "smart-crop-advisory-1c2be",
+    "storage_bucket": "smart-crop-advisory-1c2be.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41401140527:android:626d5dfaf6bafa54114dda",
+        "android_client_info": {
+          "package_name": "com.example.smart_crop_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvM0ZMaTjQBwgPTgfLJttSkB8EtuOydXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

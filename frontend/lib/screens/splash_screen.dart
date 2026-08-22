@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/app_provider.dart';
-import 'main_layout.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -91,9 +90,7 @@ class SplashScreen extends StatelessWidget {
     return ElevatedButton(
       onPressed: () {
         appProvider.setLanguage(langCode);
-        Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (_) => const MainLayout()),
-        );
+        Navigator.of(context).pushReplacementNamed('/auth_gate');
       },
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.white,
@@ -115,4 +112,3 @@ class SplashScreen extends StatelessWidget {
     );
   }
 }
-
